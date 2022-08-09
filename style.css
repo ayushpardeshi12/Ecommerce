@@ -1,0 +1,324 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width:81.25rem;
+    margin: auto;
+    padding:0 1.57rem;
+}
+.logo img{
+    width:7.82em;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.2em;
+}
+
+nav{
+    flex:1;
+    text-align: right;
+}
+
+nav ul{
+    display:inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right:1.2rem;  
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#555;
+}
+
+p{
+    color:#555;
+}
+
+.row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col{
+    flex-basis: 50%;
+    min-width:18.75rem;
+}
+
+.col img{
+    max-width: 100%;
+    padding:3rem 0;
+}
+
+.col h1{
+    font-size:3.125rem;
+    line-height:4rem;
+    margin: 1.5rem 0;
+}
+
+.btn{
+    display:inline-block;
+    background:#ff523b;
+    color:#fff;
+    padding:0.5rem 1.9rem;
+    margin:1.9rem 0;
+    text-decoration: none;
+    border-radius:1.9rem;
+    transition:all 1s ease-out;
+}
+
+.btn:hover{
+    border:1px inset #ff523b;
+    color:#ff523b;
+    background:#fff;
+}
+
+.header{
+    background:radial-gradient(#fff,#ffd6d6);
+}
+
+.header .row{
+    margin-top:4.375rem;
+}
+
+.cart{
+    width:1..9rem;
+    height:1.9rem;
+}
+
+.categories{
+    margin:4.375rem 0;
+}
+
+.col-1{
+    flex-basis: 30%;
+    min-width: 15.625rem;
+    margin-bottom: 1.9rem;
+}
+
+.col-1 img{
+    width:100%;
+}
+
+.small-container{
+    max-width:67.5rem;
+    margin:auto;
+    padding-left: 1.5625rem;
+}
+
+.col-2{
+    flex-basis: 25%;
+    padding:0.625rem;
+    min-width:12.5rem;
+    margin-bottom: 3.125rem;
+}
+
+.col-2 img{
+    width:100%;
+}
+
+.title{
+    text-align: center;
+    margin:0 auto 5rem;
+    position:relative;
+    line-height:3.75rem;
+}
+
+.title::after{
+    content:"";
+    background:#ff523b;
+    width:5rem;
+    height: 0.3125rem;
+    border-radius:0.3125rem;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.title:hover::after{
+    width:9rem;
+}
+
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top:5rem;
+    padding: 1.875rem 0;
+}
+
+.col-2 .offer{
+    padding:3.125rem
+}
+
+small{
+    color:#555;
+}
+/*--testimonial--*/
+
+.testimonial{
+    padding-top:6.25rem;
+}
+
+.testimonial .col-2{
+    text-align: center;
+    padding:2.5rem 1.25rem;
+    box-shadow:0 0 1.25rem 0 rgba(0,0,0,0.1);
+    transition:all .5s ease-in-out;
+}
+
+.testimonial .col-2:hover{
+    transform:translateY(-0.625rem);
+    box-shadow:0 0 1.25rem 0 rgba(0,0,0,0.3);
+}
+
+.testimonial .col-2 img{
+    width:3.125rem;
+    margin-top:1.25rem;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+.fa.fa-quote-left , .fa.fa-quote-right{
+    font-size: 2.125rem;
+    color:#ff523b;
+}
+
+.col-2{
+    font-size:0.75rem;
+    margin:0.75rem 0;
+    color:#777;
+}
+
+.testimonial .col-3 h3{
+    font-weight:600;
+    color:#555;
+}
+
+/*--Brands--*/
+.brands{
+    margin:6.25rem auto;
+}
+
+.col-5{
+    width:10em;
+}
+
+.col-5 img{
+    width:100%;
+    cursor:pointer;
+    filter:grayscale(100%);
+    transition:all .5s ease-in;
+}
+
+.col-5 img:hover{
+    filter:grayscale(0);
+}
+
+.footer{
+    background:#000;
+    color:#8a8a8a;
+    font-size:0.8rem;
+    padding:3.75rem 0 1.25rem;
+}
+
+.footer p{
+    color:#8a8a8a;
+}
+
+.footer h3{
+    color:#fff;
+}
+
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+    min-width:15.625rem;
+    margin-bottom:1.25rem;
+}
+
+.footer-col-1{
+    flex-basis:30%;
+}
+
+.footer-col-2{
+    flex-basis:1;
+    text-align: center;
+}
+
+.footer-col-2 img{
+    width: 11.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.footer-col-3 , .footer-col-4{
+    flex-basis: 12%;
+    text-align:center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.app-logo{
+    margin-top:1.25rem;
+}
+
+.app-logo img{
+    width:8.75rem;
+}
+
+.footer hr{
+    border:none;
+    background:#b5b5b5;
+    height:1px;
+    margin:1.25rem 0;
+}
+
+.copyright{
+    text-align:center;
+}
+
+.menu{
+    width:1.75rem;
+    margin-left:1.25rem;
+    display:none;
+}
+
+
+@media only screen and (max-width:800px){
+    nav ul{
+        position:absolute;
+        top:4.375rem;
+        left:0;
+        background:#333;
+        width:100%;
+        overflow: hidden;
+        transition:all 0.5s;
+    }
+
+    nav ul li{
+        display:block;
+        margin-right: 5rem;
+        margin-top:0.625rem;
+        margin-bottom:0.625rem;
+    }
+
+    nav ul li a{
+        color:#fff;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    
+}
